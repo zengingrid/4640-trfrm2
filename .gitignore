@@ -3,4 +3,3 @@
 *.tfstate.backup
 .env
 do_token
-.terraform.lock.hcl
