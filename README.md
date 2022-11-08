@@ -46,5 +46,5 @@ Create a wk6 directory with two subdirectories: /dev and /mgmt
     ```
   - Installing Nginx on the 3 droplets
     ```
-    ansible-playbook nignx.yml -u root
+    ansible-playbook nginx_setup.yml -u root --private-key digocean.pem
     ```
