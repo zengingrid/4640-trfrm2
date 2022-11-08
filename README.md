@@ -38,7 +38,7 @@ Create a wk6 directory with two subdirectories: /dev and /mgmt
     1. ansible.cfg file
     2. inventory directory
     3. private key file
-    4. do_token file 
+    4. do_token file (remember to source it in wsl)
   - Creating a nginx_setup.yml file to install and enable Nginx
   - Checking the grouped droplets
     ```
@@ -46,5 +46,12 @@ Create a wk6 directory with two subdirectories: /dev and /mgmt
     ```
   - Installing Nginx on the 3 droplets
     ```
-    ansible-playbook nignx.yml -u root
+    ansible-playbook nginx_setup.yml -u root --private-key digocean.pem
     ```
+- In digitalocean
+  - On left menu, go to Networking
+  - Find the Load Balancers tab
+  - Copy the IP address of the load balancer
+  - Visit 
+ ![image](https://user-images.githubusercontent.com/71790092/200472733-7b6ac47f-59fe-40d5-99a4-a95c83732d7b.png)
+
