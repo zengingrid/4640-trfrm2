@@ -11,6 +11,7 @@ Lab 5: Terraform
   ```bash
   export TF_VAR_do_token=<token_value>
   ```
+  4. source .env
 - Creating main.tf based on digital ocean documentation
 - Run: 
   ```bash
