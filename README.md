@@ -48,3 +48,12 @@ Create a wk6 directory with two subdirectories: /dev and /mgmt
     ```
     ansible-playbook nginx_setup.yml -u root --private-key digocean.pem
     ```
+- In digitalocean
+  - On left menu, go to Networking
+  - Find the Load Balancers tab
+  - Copy the IP address of the load balancer
+  - Visit 
+ ![image](https://user-images.githubusercontent.com/71790092/200472733-7b6ac47f-59fe-40d5-99a4-a95c83732d7b.png)
+
+- Verifying to see if everything is setup correctly 
+1. ansible.cfg file
