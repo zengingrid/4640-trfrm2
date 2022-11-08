@@ -4,3 +4,4 @@
 .env
 do_token
 .terraform.lock.hcl
+digocean.pem
