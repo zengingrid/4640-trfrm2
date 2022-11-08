@@ -40,4 +40,11 @@ Create a wk6 directory with two subdirectories: /dev and /mgmt
     3. private key file
     4. do_token file 
   - Creating a nginx_setup.yml file to install and enable Nginx
-  - 
+  - Checking the grouped droplets
+    ```
+    ansible-inventory --graph
+    ```
+  - Installing Nginx on the 3 droplets
+    ```
+    ansible-playbook nignx.yml -u root
+    ```
