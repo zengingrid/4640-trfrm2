@@ -38,7 +38,7 @@ Create a wk6 directory with two subdirectories: /dev and /mgmt
     1. ansible.cfg file
     2. inventory directory
     3. private key file
-    4. do_token file 
+    4. do_token file (remember to source it in wsl)
   - Creating a nginx_setup.yml file to install and enable Nginx
   - Checking the grouped droplets
     ```
