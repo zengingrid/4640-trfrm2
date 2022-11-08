@@ -6,10 +6,10 @@ Refresher
   2. Binary download for Linux: AMD64 
   3. Unzip the folder and move the file into usr/local/bin
   4. Remove the zip
-
+  
 Create a wk6 directory with two subdirectories: /dev and /mgmt
 - In /dev
-  -  Creating the .env file
+  - Creating the .env file
       1. In digitalocean, go to API to generate a token
       2. copy the token and put it in a .env file
       3. export the token as TF_VAR (export TF_VAR_do_token)
@@ -29,7 +29,15 @@ Create a wk6 directory with two subdirectories: /dev and /mgmt
      ```bash
     terraform apply
     ``` 
-  - To delete everything
+  - To delete everything (after finishing the project)
      ```bash
     terraform destroy
     ``` 
+- In /mgmt
+  - Copying reusable files from 4640-pod1 labs
+    1. ansible.cfg file
+    2. inventory directory
+    3. private key file
+    4. do_token file 
+  - Creating a nginx_setup.yml file to install and enable Nginx
+  - 
