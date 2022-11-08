@@ -1,4 +1,5 @@
-Lab 5: Terraform
+Lab 6: Terraform
+
 - Installing Terraform (via binary)
   1. Visit https://developer.hashicorp.com/terraform/downloads
   2. Binary download for Linux: AMD64 
@@ -13,7 +14,7 @@ Lab 5: Terraform
   export TF_VAR_do_token=<token_value>
   ```
 
-- Creating main.tf based on digital ocean documentation
+- Creating main.tf based on digital ocean documentation (based on lab5 but with a lb)
 - Run: 
   ```bash
   terraform init
